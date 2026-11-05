@@ -170,9 +170,9 @@ onBeforeUnmount(() => {
 <template>
   <header class="app-header">
     <div>
-      <h1>Vision Demo</h1>
+      <h1>PlateRadar</h1>
       <div class="small muted">
-        License plate &amp; people recognition — ONNX models running entirely in the browser, no backend
+        Real-time license plate &amp; people recognition — ONNX models running entirely in the browser, no backend
       </div>
     </div>
     <div class="row">

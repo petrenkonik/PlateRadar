@@ -49,7 +49,7 @@ function onFileChange(event: Event) {
       <input ref="fileInput" type="file" accept="video/*" style="display: none" @change="onFileChange" />
     </div>
     <div class="small muted" style="margin-top: 6px">
-      Server video: put mp4/webm files into <code>vision-demo/public/videos/</code> and run
+      Server video: put mp4/webm files into <code>plateradar/public/videos/</code> and run
       <code>npm run videos:index</code>
     </div>
   </div>

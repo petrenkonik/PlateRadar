@@ -1,6 +1,7 @@
-# Vision Demo
+# PlateRadar
 
-License plate & people recognition running **entirely in the browser**
+Real-time license plate & people recognition running **entirely in the
+browser**
 (Vue 3 + onnxruntime-web, no backend). The same ONNX models power every
 stage of the pipeline:
 
@@ -20,7 +21,7 @@ and orchestration.
 ## Run
 
 ```bash
-cd vision-demo
+cd plateradar
 npm install
 npm run dev        # http://localhost:5178
 ```
