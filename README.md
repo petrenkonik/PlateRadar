@@ -107,6 +107,10 @@ faces/color/fast-plate) are in the "Recognition" panel. The confirm
 threshold is applied when the annotated snapshots are drawn, so changing it
 after the analysis re-filters the marks without a re-run.
 
+## License
+
+[MIT](LICENSE)
+
 ## Bundled demo videos (public/videos/)
 
 - `royal-mail-van.webm` — main demo, 51 s 1080p: both engines read the UK
