@@ -1,0 +1,23 @@
+{
+  "name": "vision-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "videos:index": "node scripts/list-videos.mjs",
+    "models:fastplate": "node scripts/download-fastplate.mjs"
+  },
+  "dependencies": {
+    "onnxruntime-web": "1.26.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.0"
+  }
+}
